@@ -1,4 +1,7 @@
- function banner() {
+
+<center>
+<script language="Javascript">
+function banner() {
 };
 banner = new banner();
 number = 0;
@@ -12,3 +15,5 @@ banner[number++] = "<img src='https://lh6.googleusercontent.com/-19yNY-oMek8/UQq
 
 increment = Math.floor(Math.random() * number);
 document.write(banner[increment]);
+</script>
+</center>
